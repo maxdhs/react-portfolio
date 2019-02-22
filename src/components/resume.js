@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
+import resume from '../img/resume.docx'
 
 class Resume extends Component {
     render() {
         return(
             <div>
-                <h1>
-                    Resume Page
-                </h1>
+              <img src={resume} />
             </div>
         );
     }

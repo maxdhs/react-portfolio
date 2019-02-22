@@ -65,3 +65,15 @@ ul {
     border: 2px solid black;
     padding: 20px;
   }
+
+  footer {
+      color: white;
+  }
+
+  blockquote {
+      color: white;
+  }
+
+  u, li,link {
+      color: white;
+  }
