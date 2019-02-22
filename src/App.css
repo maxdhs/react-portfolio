@@ -21,3 +21,47 @@ ul {
   li a:hover {
     background-color: #111;
   }
+
+  #title {
+    font-size: 100px;
+    text-align: center;
+    font-style: oblique;
+    margin: 2px;
+    padding: 2px
+  }
+  
+  body {
+    font-family: monospace;
+  }
+  
+  #subHeader {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #myIcon {
+    padding: 1px;
+    float: right;
+  }
+  
+  .myCol {
+    padding: 5px;
+    margin: auto;
+  }
+  
+  .myCol p {
+    font-style: italic;
+  }
+  
+  ul {
+    text-align: left;
+  }
+  
+  #emoticon {
+    font-size: 30px;
+  }
+  
+  .myBorder {
+    border: 2px solid black;
+    padding: 20px;
+  }
