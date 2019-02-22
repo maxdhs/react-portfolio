@@ -77,3 +77,8 @@ ul {
   u, li,link {
       color: white;
   }
+
+.resume {
+    width: 100vw;
+    height: 100vh;
+}

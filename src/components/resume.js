@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import resume from '../img/resume.docx'
+import resume from '../img/resume.png'
 
 class Resume extends Component {
     render() {
         return(
-            <div>
-              <img src={resume} />
+            <div >
+              <img className="resume" src={resume} />
             </div>
         );
     }

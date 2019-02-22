@@ -4,9 +4,10 @@ export class Contact extends Component {
     render() {
         return(
             <div>
-                <h1>
-                    Contact Page
-                </h1>
+                <h2>
+                    Send me an email: <br />
+                <a href = "mailto: maxdhs@gmail.com">maxdhs@gmail.com</a>
+                </h2>
             </div>
         );
     }
