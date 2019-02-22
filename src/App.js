@@ -7,11 +7,12 @@ class App extends Component {
     render() {
         return (
             <div>
-                
-                <Link to="/resume">Resume</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/aboutme">About me</Link>
-                <Link to="/contact">Contact</Link>
+                <ul>
+                    <li><Link to="/resume">Resume</Link></li>
+                    <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/aboutme">About me</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
+                </ul>
                 <Main />
             </div>
         );
